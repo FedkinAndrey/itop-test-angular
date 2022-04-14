@@ -1,0 +1,35 @@
+.content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.content h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: wheat;
+}
+
+.group {
+  background: #335;
+  width: 180px;
+  margin: 0 auto 20px;
+  display: grid;
+  grid-template-columns: 100px 80px;
+  border-radius: 15px;
+}
+
+input,select {
+  background: none;
+  border: 0;
+  color: #468c5c;
+}
+
+input {
+  padding-left: 1rem;
+}
+
+select{
+  padding: 15px 0;
+}
+

@@ -1,0 +1,11 @@
+.header {
+  padding: 1rem;
+  background-color: #021c1e;
+
+  &__currency {
+    display: flex;
+    width: 55%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,18 @@
+<div class="content">
+  <h1>Currency Converter</h1>
+  <div>
+    <div class="group">
+      <input type="text" #myInput1 [value]="amount1.toFixed(4)" (change)="handleAmount1Change(myInput1.value)">
+      <select #mySelect1 (change)="handleCurrency1Change(mySelect1.value)">
+        <option [value]="i" [selected]="i === currency1" *ngFor="let i of getKeys(rates)">{{i}}</option>
+      </select>
+    </div>
+
+    <div class="group">
+      <input type="text" #myInput2 [value]="amount2.toFixed(4)" (change)="handleAmount2Change(myInput2.value)">
+      <select #mySelect2 (change)="handleCurrency2Change(mySelect2.value)">
+        <option [value]="i" [selected]="i === currency2" *ngFor="let i of getKeys(rates)">{{i}}</option>
+      </select>
+    </div>
+  </div>
+</div>

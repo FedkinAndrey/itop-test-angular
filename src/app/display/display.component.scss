@@ -1,0 +1,19 @@
+.header__group{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  span {
+    color: #468c5c;
+  }
+}
+
+.currency{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem
+}
